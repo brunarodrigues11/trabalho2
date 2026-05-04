@@ -142,6 +142,7 @@ print("Correlação:", correlacao)
 df['Popularidade'] = df['Movie_Rating'] * df['Votes']
 # cria nova coluna baseada em outras
 
+print(df[['Movie_Name', 'Popularidade']].head())
 
 # =========================
 # PARTE 4 - GRÁFICOS
